@@ -1,0 +1,5 @@
+sudo: enabled
+osx_image: xcode9.2
+language: objective-c
+xcode_project: RxMVVM.xcodeproj # path to your xcodeproj folder
+xcode_scheme: RxMVVM
