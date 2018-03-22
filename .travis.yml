@@ -3,8 +3,8 @@ osx_image: xcode9.2
 language: objective-c
 xcode_project: RxMVVM.xcodeproj # path to your xcodeproj folder
 xcode_scheme: RxMVVM
-before_script:
+before_script: travis_wait 30
   # bootstrap the dependencies for the project
   # you can remove if you don't have dependencies
+
   - carthage bootstrap --cache-builds
-install: travis_wait 30 mvn install
