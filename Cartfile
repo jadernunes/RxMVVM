@@ -1,4 +1,2 @@
 github "Alamofire/Alamofire"
 github "ReactiveX/RxSwift"
-github "RxSwiftCommunity/RxRealm"
-github "realm/realm-cocoa"
