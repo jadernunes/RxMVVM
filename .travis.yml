@@ -7,4 +7,4 @@ before_script:
   # bootstrap the dependencies for the project
   # you can remove if you don't have dependencies
   - travis_wait 30
-  - carthage bootstrap --cache-builds
+  - carthage bootstrap --cache-builds --platform ios
