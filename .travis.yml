@@ -15,4 +15,4 @@ cache:
 before_script:
   # bootstrap the dependencies for the project
   # you can remove if you don't have dependencies
-  - carthage bootstrap --cache-builds --platform ios
+  - pod install
