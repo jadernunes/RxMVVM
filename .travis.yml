@@ -1,0 +1,18 @@
+sudo: enabled
+osx_image: xcode9.2
+language: objective-c
+xcode_project: RxMVVM.xcodeproj # path to your xcodeproj folder
+xcode_scheme: RxMVVM
+install: travis_wait 30 
+cache:
+  directories:
+    - $HOME/Library/Caches/org.carthage.CarthageKit/dependencies
+    - Carthage/Build
+cache:
+  directories:
+  - Carthage
+
+before_script:
+  # bootstrap the dependencies for the project
+  # you can remove if you don't have dependencies
+  - pod install
