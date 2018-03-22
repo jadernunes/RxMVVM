@@ -6,6 +6,10 @@ xcode_scheme: RxMVVM
 install: travis_wait 30 
 cache:
   directories:
+    - $HOME/Library/Caches/org.carthage.CarthageKit/dependencies
+    - Carthage/Build
+cache:
+  directories:
   - Carthage
 
 before_script:
