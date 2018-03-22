@@ -6,5 +6,4 @@ xcode_scheme: RxMVVM
 before_script: travis_wait 30
   # bootstrap the dependencies for the project
   # you can remove if you don't have dependencies
-
   - carthage bootstrap --cache-builds
