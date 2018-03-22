@@ -15,12 +15,6 @@
 		0E2E84A82064278C00F7DFF2 /* RNDControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED82E8220618B3100BEFC4C /* RNDControllerDelegate.swift */; };
 		0E2E84A92064279100F7DFF2 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83692C2046C41800847E64 /* InitialViewController.swift */; };
 		0E2E84AA2064279400F7DFF2 /* RNDViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A6E392048764E00F359CE /* RNDViewModel.swift */; };
-		0E2E84AB2064286100F7DFF2 /* RxRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD8431205931B70085CC91 /* RxRealm.framework */; };
-		0E2E84AC2064286100F7DFF2 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC174A020488D0400BBDBCE /* Alamofire.framework */; };
-		0E2E84AD2064286100F7DFF2 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD842B20592FCC0085CC91 /* RxSwift.framework */; };
-		0E2E84AE2064286100F7DFF2 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD842A20592FCB0085CC91 /* RxCocoa.framework */; };
-		0E2E84AF2064286100F7DFF2 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD842C20592FCC0085CC91 /* RealmSwift.framework */; };
-		0E2E84B02064286100F7DFF2 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD842920592FCB0085CC91 /* Realm.framework */; };
 		0E2E84B12064286800F7DFF2 /* RNDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A6E372048360900F359CE /* RNDModel.swift */; };
 		0E6A6E382048360900F359CE /* RNDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A6E372048360900F359CE /* RNDModel.swift */; };
 		0E6A6E3A2048764E00F359CE /* RNDViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A6E392048764E00F359CE /* RNDViewModel.swift */; };
@@ -30,15 +24,11 @@
 		0E8369302046C41800847E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E83692E2046C41800847E64 /* Main.storyboard */; };
 		0E8369322046C41800847E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E8369312046C41800847E64 /* Assets.xcassets */; };
 		0E8369352046C41800847E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8369332046C41800847E64 /* LaunchScreen.storyboard */; };
-		0EAD842D20592FCC0085CC91 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD842920592FCB0085CC91 /* Realm.framework */; };
-		0EAD842E20592FCC0085CC91 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD842A20592FCB0085CC91 /* RxCocoa.framework */; };
-		0EAD842F20592FCC0085CC91 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD842B20592FCC0085CC91 /* RxSwift.framework */; };
-		0EAD843020592FCC0085CC91 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD842C20592FCC0085CC91 /* RealmSwift.framework */; };
-		0EAD8432205931B70085CC91 /* RxRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD8431205931B70085CC91 /* RxRealm.framework */; };
-		0EC174A120488D0400BBDBCE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC174A020488D0400BBDBCE /* Alamofire.framework */; };
 		0EC174A420488D6D00BBDBCE /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC174A320488D6D00BBDBCE /* ApiRequest.swift */; };
 		0ED82E81206180CB00BEFC4C /* RNDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED82E80206180CB00BEFC4C /* RNDController.swift */; };
 		0ED82E8320618B3100BEFC4C /* RNDControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED82E8220618B3100BEFC4C /* RNDControllerDelegate.swift */; };
+		1E56E8BCE220A2F1141EDF3B /* Pods_RxMVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52E5804F4410F76F61E49738 /* Pods_RxMVVM.framework */; };
+		6C6256B411DA1D1859AA1510 /* Pods_RxMVVMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F733F760F3BB6338CD32AA10 /* Pods_RxMVVMTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +54,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0C9BE75448ACAA4CEDCE8E24 /* Pods-RxMVVMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMVVMTests/Pods-RxMVVMTests.release.xcconfig"; sourceTree = "<group>"; };
 		0E6A6E372048360900F359CE /* RNDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNDModel.swift; sourceTree = "<group>"; };
 		0E6A6E392048764E00F359CE /* RNDViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNDViewModel.swift; sourceTree = "<group>"; };
 		0E6A6E3B20487A5700F359CE /* ApiRequestDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequestDelegate.swift; sourceTree = "<group>"; };
@@ -77,15 +68,14 @@
 		0E83693B2046C41900847E64 /* RxMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E83693F2046C41900847E64 /* RxMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMVVMTests.swift; sourceTree = "<group>"; };
 		0E8369412046C41900847E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0EAD842920592FCB0085CC91 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
-		0EAD842A20592FCB0085CC91 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		0EAD842B20592FCC0085CC91 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
-		0EAD842C20592FCC0085CC91 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
-		0EAD8431205931B70085CC91 /* RxRealm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRealm.framework; path = Carthage/Build/iOS/RxRealm.framework; sourceTree = "<group>"; };
-		0EC174A020488D0400BBDBCE /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		0EC174A320488D6D00BBDBCE /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
 		0ED82E80206180CB00BEFC4C /* RNDController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNDController.swift; sourceTree = "<group>"; };
 		0ED82E8220618B3100BEFC4C /* RNDControllerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNDControllerDelegate.swift; sourceTree = "<group>"; };
+		215F7B82590F8234515C71A1 /* Pods-RxMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMVVM/Pods-RxMVVM.release.xcconfig"; sourceTree = "<group>"; };
+		4C9FCB7424EDD0B71CBA3358 /* Pods-RxMVVMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxMVVMTests/Pods-RxMVVMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		52E5804F4410F76F61E49738 /* Pods_RxMVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF4BF7355946532C30010AF /* Pods-RxMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxMVVM/Pods-RxMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		F733F760F3BB6338CD32AA10 /* Pods_RxMVVMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMVVMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,12 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EAD8432205931B70085CC91 /* RxRealm.framework in Frameworks */,
-				0EAD842D20592FCC0085CC91 /* Realm.framework in Frameworks */,
-				0EAD842E20592FCC0085CC91 /* RxCocoa.framework in Frameworks */,
-				0EAD842F20592FCC0085CC91 /* RxSwift.framework in Frameworks */,
-				0EAD843020592FCC0085CC91 /* RealmSwift.framework in Frameworks */,
-				0EC174A120488D0400BBDBCE /* Alamofire.framework in Frameworks */,
+				1E56E8BCE220A2F1141EDF3B /* Pods_RxMVVM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,12 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E2E84AB2064286100F7DFF2 /* RxRealm.framework in Frameworks */,
-				0E2E84AC2064286100F7DFF2 /* Alamofire.framework in Frameworks */,
-				0E2E84AD2064286100F7DFF2 /* RxSwift.framework in Frameworks */,
-				0E2E84AE2064286100F7DFF2 /* RxCocoa.framework in Frameworks */,
-				0E2E84AF2064286100F7DFF2 /* RealmSwift.framework in Frameworks */,
-				0E2E84B02064286100F7DFF2 /* Realm.framework in Frameworks */,
+				6C6256B411DA1D1859AA1510 /* Pods_RxMVVMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +105,7 @@
 				0E83693E2046C41900847E64 /* RxMVVMTests */,
 				0E8369282046C41800847E64 /* Products */,
 				0EC1749F20488D0400BBDBCE /* Frameworks */,
+				D4988C2E5CCDEE52921F1E21 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -172,12 +153,8 @@
 		0EC1749F20488D0400BBDBCE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0EAD8431205931B70085CC91 /* RxRealm.framework */,
-				0EAD842920592FCB0085CC91 /* Realm.framework */,
-				0EAD842C20592FCC0085CC91 /* RealmSwift.framework */,
-				0EAD842A20592FCB0085CC91 /* RxCocoa.framework */,
-				0EAD842B20592FCC0085CC91 /* RxSwift.framework */,
-				0EC174A020488D0400BBDBCE /* Alamofire.framework */,
+				52E5804F4410F76F61E49738 /* Pods_RxMVVM.framework */,
+				F733F760F3BB6338CD32AA10 /* Pods_RxMVVMTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -226,6 +203,17 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		D4988C2E5CCDEE52921F1E21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBF4BF7355946532C30010AF /* Pods-RxMVVM.debug.xcconfig */,
+				215F7B82590F8234515C71A1 /* Pods-RxMVVM.release.xcconfig */,
+				4C9FCB7424EDD0B71CBA3358 /* Pods-RxMVVMTests.debug.xcconfig */,
+				0C9BE75448ACAA4CEDCE8E24 /* Pods-RxMVVMTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -233,10 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E83694F2046C41900847E64 /* Build configuration list for PBXNativeTarget "RxMVVM" */;
 			buildPhases = (
+				F0E5BEA6FF93A3C1AE55E2FF /* [CP] Check Pods Manifest.lock */,
 				0E8369232046C41800847E64 /* Sources */,
 				0E8369242046C41800847E64 /* Frameworks */,
 				0E8369252046C41800847E64 /* Resources */,
-				0EC174A220488D0B00BBDBCE /* Carthage */,
+				8A1C894F863F8A6B159EC439 /* [CP] Embed Pods Frameworks */,
+				17AB27406E8CDEC080DBC042 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,10 +241,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E8369522046C41900847E64 /* Build configuration list for PBXNativeTarget "RxMVVMTests" */;
 			buildPhases = (
+				BC5D6F3FC4A9C650E7955AF5 /* [CP] Check Pods Manifest.lock */,
 				0E8369372046C41900847E64 /* Sources */,
 				0E8369382046C41900847E64 /* Frameworks */,
 				0E8369392046C41900847E64 /* Resources */,
 				0E0D7FD02064233F00ED8368 /* CopyFiles */,
+				43698F0240A9AB17DD7AF9EE /* [CP] Embed Pods Frameworks */,
+				61AA38B13AD4EB413CA7FBC7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -328,25 +321,115 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0EC174A220488D0B00BBDBCE /* Carthage */ = {
+		17AB27406E8CDEC080DBC042 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/RxRealm.framework",
 			);
-			name = Carthage;
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "carthage copy-frameworks";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxMVVM/Pods-RxMVVM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43698F0240A9AB17DD7AF9EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxMVVMTests/Pods-RxMVVMTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxMVVMTests/Pods-RxMVVMTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61AA38B13AD4EB413CA7FBC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxMVVMTests/Pods-RxMVVMTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A1C894F863F8A6B159EC439 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxMVVM/Pods-RxMVVM-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxMVVM/Pods-RxMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC5D6F3FC4A9C650E7955AF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxMVVMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E5BEA6FF93A3C1AE55E2FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxMVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -520,6 +603,7 @@
 		};
 		0E8369502046C41900847E64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF4BF7355946532C30010AF /* Pods-RxMVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +624,7 @@
 		};
 		0E8369512046C41900847E64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 215F7B82590F8234515C71A1 /* Pods-RxMVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -560,6 +645,7 @@
 		};
 		0E8369532046C41900847E64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9FCB7424EDD0B71CBA3358 /* Pods-RxMVVMTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -581,6 +667,7 @@
 		};
 		0E8369542046C41900847E64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C9BE75448ACAA4CEDCE8E24 /* Pods-RxMVVMTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
