@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0D7FCF2064224000ED8368 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E8369412046C41900847E64 /* Info.plist */; };
+		0E0D7FD12064244B00ED8368 /* RxMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83693F2046C41900847E64 /* RxMVVMTests.swift */; };
+		0E2E84A52064278100F7DFF2 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC174A320488D6D00BBDBCE /* ApiRequest.swift */; };
+		0E2E84A62064278400F7DFF2 /* ApiRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A6E3B20487A5700F359CE /* ApiRequestDelegate.swift */; };
+		0E2E84A72064278800F7DFF2 /* RNDController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED82E80206180CB00BEFC4C /* RNDController.swift */; };
+		0E2E84A82064278C00F7DFF2 /* RNDControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED82E8220618B3100BEFC4C /* RNDControllerDelegate.swift */; };
+		0E2E84A92064279100F7DFF2 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83692C2046C41800847E64 /* InitialViewController.swift */; };
+		0E2E84AA2064279400F7DFF2 /* RNDViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A6E392048764E00F359CE /* RNDViewModel.swift */; };
+		0E2E84AB2064286100F7DFF2 /* RxRealm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD8431205931B70085CC91 /* RxRealm.framework */; };
+		0E2E84AC2064286100F7DFF2 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EC174A020488D0400BBDBCE /* Alamofire.framework */; };
+		0E2E84AD2064286100F7DFF2 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD842B20592FCC0085CC91 /* RxSwift.framework */; };
+		0E2E84AE2064286100F7DFF2 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD842A20592FCB0085CC91 /* RxCocoa.framework */; };
+		0E2E84AF2064286100F7DFF2 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD842C20592FCC0085CC91 /* RealmSwift.framework */; };
+		0E2E84B02064286100F7DFF2 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD842920592FCB0085CC91 /* Realm.framework */; };
+		0E2E84B12064286800F7DFF2 /* RNDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A6E372048360900F359CE /* RNDModel.swift */; };
 		0E6A6E382048360900F359CE /* RNDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A6E372048360900F359CE /* RNDModel.swift */; };
 		0E6A6E3A2048764E00F359CE /* RNDViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A6E392048764E00F359CE /* RNDViewModel.swift */; };
 		0E6A6E3C20487A5700F359CE /* ApiRequestDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6A6E3B20487A5700F359CE /* ApiRequestDelegate.swift */; };
@@ -15,7 +30,6 @@
 		0E8369302046C41800847E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E83692E2046C41800847E64 /* Main.storyboard */; };
 		0E8369322046C41800847E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E8369312046C41800847E64 /* Assets.xcassets */; };
 		0E8369352046C41800847E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8369332046C41800847E64 /* LaunchScreen.storyboard */; };
-		0E8369402046C41900847E64 /* TestMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E83693F2046C41900847E64 /* TestMVVMTests.swift */; };
 		0EAD842D20592FCC0085CC91 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD842920592FCB0085CC91 /* Realm.framework */; };
 		0EAD842E20592FCC0085CC91 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD842A20592FCB0085CC91 /* RxCocoa.framework */; };
 		0EAD842F20592FCC0085CC91 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EAD842B20592FCC0085CC91 /* RxSwift.framework */; };
@@ -37,6 +51,18 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		0E0D7FD02064233F00ED8368 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0E6A6E372048360900F359CE /* RNDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNDModel.swift; sourceTree = "<group>"; };
 		0E6A6E392048764E00F359CE /* RNDViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNDViewModel.swift; sourceTree = "<group>"; };
@@ -49,7 +75,7 @@
 		0E8369342046C41800847E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E8369362046C41800847E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E83693B2046C41900847E64 /* RxMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E83693F2046C41900847E64 /* TestMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMVVMTests.swift; sourceTree = "<group>"; };
+		0E83693F2046C41900847E64 /* RxMVVMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMVVMTests.swift; sourceTree = "<group>"; };
 		0E8369412046C41900847E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EAD842920592FCB0085CC91 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		0EAD842A20592FCB0085CC91 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
@@ -80,6 +106,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2E84AB2064286100F7DFF2 /* RxRealm.framework in Frameworks */,
+				0E2E84AC2064286100F7DFF2 /* Alamofire.framework in Frameworks */,
+				0E2E84AD2064286100F7DFF2 /* RxSwift.framework in Frameworks */,
+				0E2E84AE2064286100F7DFF2 /* RxCocoa.framework in Frameworks */,
+				0E2E84AF2064286100F7DFF2 /* RealmSwift.framework in Frameworks */,
+				0E2E84B02064286100F7DFF2 /* Realm.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +154,7 @@
 		0E83693E2046C41900847E64 /* RxMVVMTests */ = {
 			isa = PBXGroup;
 			children = (
-				0E83693F2046C41900847E64 /* TestMVVMTests.swift */,
+				0E83693F2046C41900847E64 /* RxMVVMTests.swift */,
 				0E8369412046C41900847E64 /* Info.plist */,
 			);
 			path = RxMVVMTests;
@@ -222,6 +254,7 @@
 				0E8369372046C41900847E64 /* Sources */,
 				0E8369382046C41900847E64 /* Frameworks */,
 				0E8369392046C41900847E64 /* Resources */,
+				0E0D7FD02064233F00ED8368 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -288,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E0D7FCF2064224000ED8368 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,7 +370,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E8369402046C41900847E64 /* TestMVVMTests.swift in Sources */,
+				0E2E84A92064279100F7DFF2 /* InitialViewController.swift in Sources */,
+				0E2E84A62064278400F7DFF2 /* ApiRequestDelegate.swift in Sources */,
+				0E2E84A72064278800F7DFF2 /* RNDController.swift in Sources */,
+				0E2E84A82064278C00F7DFF2 /* RNDControllerDelegate.swift in Sources */,
+				0E2E84AA2064279400F7DFF2 /* RNDViewModel.swift in Sources */,
+				0E0D7FD12064244B00ED8368 /* RxMVVMTests.swift in Sources */,
+				0E2E84B12064286800F7DFF2 /* RNDModel.swift in Sources */,
+				0E2E84A52064278100F7DFF2 /* ApiRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,9 +565,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3RC69C46Z3;
-				INFOPLIST_FILE = TestMVVMTests/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = RxMVVMTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jader.TestMVVMTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jader.RxMVVMTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -541,9 +586,13 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3RC69C46Z3;
-				INFOPLIST_FILE = TestMVVMTests/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = RxMVVMTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jader.TestMVVMTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jader.RxMVVMTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
