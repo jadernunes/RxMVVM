@@ -5,20 +5,15 @@ xcode_project: RxMVVM.xcodeproj # path to your xcodeproj folder
 xcode_scheme: RxMVVM
 
 cache:
-- bundler
 - cocoapods
 
 before_install:
 - rm -rf ~/Library/Developer/Xcode/DerivedData
 
-install: 
-  - bundle install
-
 before_script:
   # bootstrap the dependencies for the project
   # you can remove if you don't have dependencies
-  - pod repo update
-  - pod install
+  - pod install --repo-update
 
 script:
 - xcodebuild -version
