@@ -6,6 +6,7 @@
 //  Copyright © 2018 jader. All rights reserved.
 //
 
+import UIKit
 import Foundation
 
 /// RNDController protocol to request Model(RNDModel) to Api

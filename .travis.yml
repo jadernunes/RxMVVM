@@ -1,0 +1,20 @@
+sudo: enabled
+osx_image: xcode9.2
+language: objective-c
+xcode_project: RxMVVM.xcodeproj # path to your xcodeproj folder
+xcode_scheme: RxMVVM
+
+cache:
+- cocoapods
+
+before_install:
+- rm -rf ~/Library/Developer/Xcode/DerivedData
+
+before_script:
+  # bootstrap the dependencies for the project
+  # you can remove if you don't have dependencies
+  - pod install --repo-update
+
+script:
+- xcodebuild -version
+- xcodebuild -workspace RxMVVM.xcworkspace -scheme 'RxMVVM' -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6s" clean build
