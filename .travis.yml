@@ -4,16 +4,15 @@ language: objective-c
 xcode_project: RxMVVM.xcodeproj # path to your xcodeproj folder
 xcode_scheme: RxMVVM
 
-cache:
-- cocoapods
-
 before_install:
 - rm -rf ~/Library/Developer/Xcode/DerivedData
 
 before_script:
   # bootstrap the dependencies for the project
   # you can remove if you don't have dependencies
-  - pod install --repo-update
+- sudo gem install cocoapods --pre
+- pod repo update
+- pod install
 
 script:
 - xcodebuild -version
