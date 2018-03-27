@@ -4,7 +4,7 @@ RxMVVM
 ![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg)
 [![Build Status](https://travis-ci.org/jadernunes/RxMVVM.svg?branch=master)](https://travis-ci.org/jadernunes/RxMVVM)
 
-RxMVVM is an iOS application developed using [RxSwift](https://github.com/ReactiveX/RxSwift). This project is for whom having trouble with learning how to build a RxSwift application.
+RxMVVM is an iOS application developed using RxSwift. This project is for those who are having trouble with learning how to build a RxSwift application.
 
 Features
 --------
